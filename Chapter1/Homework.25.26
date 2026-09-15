@@ -1,0 +1,82 @@
+#task1
+artist = input("Who is your favourite artist?")
+ compliment = "is brilliant"
+ result = artist + compliment
+ print(result)
+
+
+#task 2
+ fullName = input("Enter your full name (first last): ")
+ spacelos = fullName.index(" ")
+ fName = fullName[: spacelos]
+ sName = fullName[spacelos+1:]
+ print(fName)
+ print(sName)
+#task 3
+hours = int(input("Enter hours: "))
+minutes = int(input("Enter minutes: "))
+seconds = int(input("Enter seconds: "))
+
+total = hours*3600 + minutes*60 + seconds
+
+print("Total seconds is:", total)
+#TAsk 4
+secs = int(input("Enter a five-digit number of seconds: "))
+
+minutes = secs / 60
+
+print("That is", round(minutes), "minutes to the nearest whole number")
+#task 5
+c1 = input("Enter character 1: ")
+c2 = input("Enter character 2: ")
+c3 = input("Enter character 3: ")
+c4 = input("Enter character 4: ")
+c5 = input("Enter character 5: ")
+
+print(c1, "->", ord(c1))
+print(c2, "->", ord(c2))
+print(c3, "->", ord(c3))
+print(c4, "->", ord(c4))
+print(c5, "->", ord(c5))
+#task6
+units = 684
+rate = 0.19
+standing = 26.20
+
+total = units * rate + standing
+
+print("Total amount due is: €", total)
+#Part 2
+rate = 0.19
+standing = 26.20
+
+units = int(input("Enter number of units used this month: "))
+
+total = units * rate + standing
+
+print("Total amount due is: €", total)
+#task 7
+fish = int(input("Enter number of portions of fish: "))
+chips = int(input("Enter number of portions of chips: "))
+
+total = fish * fish_price + chips * chips_price
+
+print(f"Order: {fish} fish, {chips} chips")
+print(f"Total amount due: €{total:.2f}")
+#Task 8
+word = input("Enter a 5-letter word (lowercase): ")
+key = int(input("Enter shift key (0-25): "))
+
+encrypted = ""
+
+for letter in word:
+    
+    num = ord(letter) - ord('a')
+    
+    new_num = (num + key) % 26
+    
+    new_letter = chr(new_num + ord('a'))
+    encrypted += new_letter
+
+print("Output:", encrypted)
+
