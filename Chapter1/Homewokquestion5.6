@@ -1,0 +1,35 @@
+print("Free Luas ticket giveaway from central Dublin!")
+print("Choose a letter: A, B or C to win a weekend voucher.")
+
+choice = input("Enter A, B or C: ")
+
+choice = choice.upper()
+
+if choice == "A":
+    print("You have won a ticket to Dundrum Shopping Centre!")
+elif choice == "B":
+    print("You have won a ticket to Tallaght!")
+elif choice == "C":
+    print("You have won a ticket to Broombridge!")
+else:
+    print("Invalid entry")
+percent = int(input("Enter your percentage (0-100): "))
+
+if percent >= 90 and percent <= 100:
+    grade = "H1"
+elif percent >= 80:
+    grade = "H2"
+elif percent >= 70:
+    grade = "H3"
+elif percent >= 60:
+    grade = "H4"
+elif percent >= 50:
+    grade = "H5"
+elif percent >= 40:
+    grade = "H6"
+elif percent >= 30:
+    grade = "H7"
+else:
+    grade = "H8"
+
+print(f"Your grade is {grade}")
