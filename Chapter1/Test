@@ -30,5 +30,5 @@ numChar = len(fullName)
 print("Name length:", numChar)
 
 #task 6
-print(fullName)
+
 
