@@ -1,0 +1,34 @@
+#Task 1
+cinemaName = ("Tralee Movie House")
+print(cinemaName)
+
+#Task 2
+fullName = str(input("Name:"))
+age = int(input("Age:"))
+numberTickets = int(input("Tickets:"))
+ticketCost = 5.6
+print("ticket Cost:",ticketCost)
+
+
+#task 3
+totalTicketCost = ticketCost*numberTickets
+print("total cost is:", totalTicketCost)
+
+bookingFee = 2
+print("Booking fee:", bookingFee)
+
+#TASK4
+finalCost = totalTicketCost%bookingFee
+print("Final Cost:",finalCost)
+if finalCost == 0:
+ print("Tickets can be split evenly into pairs")
+else:
+ print("Tickets can not be split evenly")
+ 
+#task 5
+numChar = len(fullName)
+print("Name length:", numChar)
+
+#task 6
+print(fullName)
+
