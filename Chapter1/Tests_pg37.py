@@ -17,12 +17,33 @@ for y in range(1,number):
     print(y)
     
 #task3
-v = input("Enter a Word:")
-vowelCount = 0
-for character in v:
-    if character =="a,e,i,o,u":
-     vowelCount+=1
-# wordCount = vowelCount+1
-print("Vowels:", vowelCount)
-# print("Words: ", wordCount)
-#     
+sentence = input("Enter a sentence: ")
+vowels = "aeiouAEIOU"
+count = 0
+
+for char in sentence:
+    if char in vowels:
+        count += 1
+
+print(f"Number of vowels: {count}")
+
+Task 4
+sentence = input("Enter a sentence: ")
+reversed_sentence = ""
+
+for char in sentence:
+    reversed_sentence = char + reversed_sentence  # adds char to front
+
+print(reversed_sentence)
+
+Task 5
+sentence = input("Enter a sentence: ")
+letter = input("Enter a single character: ")
+
+count = 0
+for char in sentence:
+    if char == letter:
+        count += 1
+
+print(f"'{letter}' appears {count} times in the sentence.")
+
