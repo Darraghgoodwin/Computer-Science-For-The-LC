@@ -27,9 +27,9 @@ total_hours = sum(hours)
 total_milk = total_hours * 0.5 # 0.5 litres per hour
 cost = total_milk * 1.35
 
-print("\nTotal hours at home: {total_hours} hours")
-print("Total milk drunk: {total_milk} litres")
-print("Amount Stephen must pay his father: €{cost:.2f}")
+print("\nTotal hours at home:", {total_hours} hours)
+print("Total milk drunk:", {total_milk} litres)
+print("Amount Stephen must pay his father:", {cost:.2f})
 
 #Task 3
 rainfall = []
