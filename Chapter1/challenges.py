@@ -48,7 +48,6 @@ Round to 2 dp
 '''
 metresPerSecond = converter(avgSpeed)
 print(metresPerSecond)
-print
-
+print("km/h:", metresPerSecond)
 
 
