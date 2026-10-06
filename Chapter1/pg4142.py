@@ -24,7 +24,7 @@ for i in range(7):
 
 hours = [12, 7, 9, 9, 6, 8, 2]
 total_hours = sum(hours)
-total_milk = total_hours * 0.5 # 0.5 litres per hour
+total_milk = total_hours * 0.5 
 cost = total_milk * 1.35
 
 print("\nTotal hours at home:", {total_hours} hours)
