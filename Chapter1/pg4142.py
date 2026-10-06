@@ -1,8 +1,8 @@
-#Task 1 - Add 1 to each item
+#Task 1 
 numbers = []
 
 for i in range(5):
-    n = int(input("Enter number {i+1}: "))
+    n = int(input("Enter number: "))
     numbers.append(n)
 
 print("Original list:", numbers)
@@ -13,12 +13,12 @@ for i in range(len(numbers)):
 
 print("Incremented list:", numbers)
 
-#Task 2 - Stephen's milk
+#Task 2 
 hours = []
 
 
 for i in range(7):
-    h = int(input("Enter waking hours at home for Day {i+1}: "))
+    h = int(input("Enter waking hours at home for Day: "))
     hours.append(h)
 
 
@@ -31,7 +31,7 @@ print("\nTotal hours at home: {total_hours} hours")
 print("Total milk drunk: {total_milk} litres")
 print("Amount Stephen must pay his father: €{cost:.2f}")
 
-#task 3
+#Task 3
 rainfall = []
 
 
@@ -49,6 +49,6 @@ print("Average rainfall:", {average:.2} )
 
 for i in range(7):
     if rainfall[i] > 3.5:
-        print("Warning: Heavy rainfall on Day  exceeded 3.5 cm")
+        print("Warning: Heavy rainfall on Day exceeded 3.5 cm")
 
 
