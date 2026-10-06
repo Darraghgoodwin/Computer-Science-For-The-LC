@@ -11,7 +11,8 @@ def timeTravelEstimater(d,speed):
     return time
     
 def converter(speed):
-    km = round(
+    km = round(speed*3.6,2)
+    return km
     
 
 
@@ -45,8 +46,9 @@ Average speed in meters per second (m/s) can be hard to visualize for cars. Crea
 Hint: To convert m/s to km/h, multiply the speed by 3.6.
 Round to 2 dp
 '''
-
-
+metresPerSecond = converter(avgSpeed)
+print(metresPerSecond)
+print
 
 
 
