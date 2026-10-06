@@ -43,8 +43,8 @@ for i in range(7):
 total = sum(rainfall)
 average = total / len(rainfall)
 
-print("\nTotal rainfall for the week:", {total:.1} )
-print("Average rainfall:", {average:.2} )
+print("Total rainfall for the week:", total} )
+print("Average rainfall:", average )
 
 
 for i in range(7):
