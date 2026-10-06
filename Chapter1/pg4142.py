@@ -36,7 +36,7 @@ rainfall = []
 
 
 for i in range(7):
-    amount = float(input("Enter rainfall for Day {i+1} in cm: "))
+    amount = float(input("Enter rainfall for Day: "))
     rainfall.append(amount)
 
 
