@@ -43,7 +43,7 @@ for i in range(7):
 total = sum(rainfall)
 average = total / len(rainfall)
 
-print("Total rainfall for the week:", total} )
+print("Total rainfall for the week:", total )
 print("Average rainfall:", average )
 
 
